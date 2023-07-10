@@ -2,7 +2,7 @@ FROM python:3
 
 WORKDIR /app
 
-ADD main.py .
+ADD api.py .
 
 RUN python -m pip install --upgrade pip
 RUN pip install wheel
