@@ -25,7 +25,7 @@ def home(nums):
             "Did you hear about the mathematician who is afraid of negative numbers? He will stop at nothing to avoid them!",
             "Why do not skeletons fight each other? They do not have the guts!"
 	    ]
-		joke = jokes[nums]
+		joke = jokes[0: nums]
 		
         # Below, we are selecting a random joke out of the 10 jokes in
         # the list above.
